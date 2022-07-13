@@ -64,7 +64,7 @@
     ## Mettre à jour les dépendances du projet.
     ``` npm update ``` ou ``` npm update "nom de la dépendance" ```  
     
-    ### Soucis avec l'upload de fichier dans le projet ?
+    ## Soucis avec l'upload de fichier dans le projet ?
     Regarder du côté de SELinux
     3 niveaux de sécurités (Enforcing/Permissive/Disabled)
     ### Bash
@@ -78,7 +78,7 @@
         - modifier la ligne `SELINUX=enforcing` par `SELINUX=permissive`
         - redémarrer l'ordinateur
         
-      #### Attention 
+      ### Attention 
       - Il est très déconseillé de passer `SELinux` en mode `Disabled`
       - Si vous souhaitez remettre le mode `Enforcing` faite la même manipulation 
         ET la commande `Bash`
