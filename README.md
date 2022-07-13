@@ -16,13 +16,13 @@
 
 
 3. 
-    # Bash / Démarre le projet
+    # Bash / Démarrer le projet
     ```make start```
 
 
 
 4. 
-    # Bash / Arrête le projet
+    # Bash / Arrêter le projet
     ```make stop```
 
 
