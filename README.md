@@ -43,5 +43,8 @@
     A la création d'un projet NPM, le fichier `package.json` est créé avec les informations du projet comme ses dépendances.
     -> Indiquer `node_modules` dans `.gitignore`
 
-    ``` npm install ```     # Installer les dépendances du projet après votre `git clone`.
-    ``` npm update ``` ou ``` npm update <nom de la dépendance> ```   # Mettre à jour les dépendances du projet.
+    # Installer les dépendances du projet après votre `git clone`.
+    ``` npm install ```   
+    
+    # Mettre à jour les dépendances du projet.
+    ``` npm update ``` ou ``` npm update <nom de la dépendance> ```  
