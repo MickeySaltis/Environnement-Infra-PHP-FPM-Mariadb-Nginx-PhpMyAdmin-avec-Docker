@@ -79,8 +79,8 @@
         - redémarrer l'ordinateur
         
       ##### Attention 
-      - Il est très déconseillé de passe `SELinux` en mode `Disabled`
-        - Si vous souhaitez remettre le mode `Enforcing` faite la même manipulation 
-            ET la commande `Bash`
-            ``` touch /.autorelabel ``` 
-            avant de redémarrer l'ordinateur, pour ré-étiquetter les fichiers pour le bon fonctionnement du système
+      - Il est très déconseillé de passer `SELinux` en mode `Disabled`
+      - Si vous souhaitez remettre le mode `Enforcing` faite la même manipulation 
+        ET la commande `Bash`
+        ``` touch /.autorelabel ``` 
+        avant de redémarrer l'ordinateur, pour ré-étiquetter les fichiers pour le bon fonctionnement du système
