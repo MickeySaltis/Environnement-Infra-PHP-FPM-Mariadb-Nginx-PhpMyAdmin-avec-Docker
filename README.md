@@ -59,4 +59,4 @@
   
   
     # Mettre à jour les dépendances du projet.
-    ``` npm update ``` ou ``` npm update <nom de la dépendance> ```  
+    ``` npm update ``` ou ``` npm update "nom de la dépendance" ```  
