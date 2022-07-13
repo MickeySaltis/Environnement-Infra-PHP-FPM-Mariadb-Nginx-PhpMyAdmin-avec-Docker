@@ -66,19 +66,20 @@
     
     ### Soucis avec l'upload de fichier dans le projet ?
     Regarder du côté de SELinux
-        . 3 niveaux de sécurités (Enforcing/Permissive/Disabled)
+    3 niveaux de sécurités (Enforcing/Permissive/Disabled)
+    #### Bash
         
-        #### Bash
         ``` getenforce # Mode actuelle sur l'ordinateur ```
         ``` setenforce 0 # Mode permissive jusqu'à redémarrage de l'ordinateur ```
         
-        Modifier manuellement le fichier SELinux
+        
+     Modifier manuellement le fichier SELinux
         - le fichier se situe: `/etc/sysconfig/selinux`
         - modifier la ligne `SELINUX=enforcing` par `SELINUX=permissive`
         - redémarrer l'ordinateur
         
-        ##### Attention 
-        - Il est très déconseillé de passe `SELinux` en mode `Disabled`
+      ##### Attention 
+      - Il est très déconseillé de passe `SELinux` en mode `Disabled`
         - Si vous souhaitez remettre le mode `Enforcing` faite la même manipulation 
             ET la commande `Bash`
             ``` touch /.autorelabel ``` 
