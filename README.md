@@ -1,19 +1,47 @@
 # Environnement Infra PHP FPM / Mariadb / Nginx / PhpMyAdmin avec Docker
 
 1. 
-    # Bash
-
+    # Bash / DL l'environnement
+    git clone https://github.com/niwee-productions/simple-php-fpm-mariadb-pma.git "nom du projet"
 
 2. 
-    # Bash
-    ```cd "nom du projet" / se déplacer dans le dossier ciblé
-    mkdir app / créer le dossier app
-    touch app/index.php / créer un fichier index.php dans le dossier app```
+    # Bash / Préparer son projet
+    ```
+    cd "nom du projet"
+    mkdir app
+    touch app/index.php```
 
 3. 
-    # Bash
-    ```make start / Démarre le projet```
+    # Bash / Démarre le projet
+    ```make start```
 
 4. 
-    # Bash
-    ```make stop / Arrête le projet```# Environnement-Infra-PHP-FPM-Mariadb-Nginx-PhpMyAdmin-avec-Docker
+    # Bash / Arrête le projet
+    ```make stop```
+
+5. 
+    # Bash / NPM
+    ```
+    sudo apt install curl -y # Installer curl
+
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" # Télécharger NVM
+
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # Charge NVM 
+
+    source .profile # Recharger le fichier .profile
+    source .bashrc  # Recharger le fichier .bashrc
+
+    nvm install --lts # Installer NodeJS/NPM sur la dernière version stable
+    ```
+    ```
+    npm init                     # Créer un projet NPM
+    npm install --save bootstrap # Installer Bootstrap
+    npm install --save jquery    # Installer Jquery
+    npm install --global gulp    # Installer Gulp
+    ```
+    A la création d'un projet NPM, le fichier `package.json` est créé avec les informations du projet comme ses dépendances.
+    -> Indiquer `node_modules` dans `.gitignore`
+
+    ``` npm install ``` # Installer les dépendances du projet après votre `git clone`.
+    ``` npm update ``` ou ``` npm update <nom de la dépendance> ``` # Mettre à jour les dépendances du projet.
