@@ -3,7 +3,7 @@
 1. 
     # Bash / DL l'environnement
     ``` 
-    git clone https://github.com/niwee-productions/simple-php-fpm-mariadb-pma.git "nom du projet" 
+    git clone https://github.com/MickeySaltis/Environnement-Infra-PHP-FPM-Mariadb-Nginx-PhpMyAdmin-avec-Docker "nom du projet" 
     ```
 
 
