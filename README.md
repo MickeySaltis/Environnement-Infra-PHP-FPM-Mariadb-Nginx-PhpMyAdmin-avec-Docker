@@ -13,7 +13,8 @@
     ```
     cd "nom du projet"
     mkdir app
-    touch app/index.php```
+    touch app/index.php
+    ```
 
 
 
