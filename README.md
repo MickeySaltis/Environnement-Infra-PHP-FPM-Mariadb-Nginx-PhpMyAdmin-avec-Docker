@@ -17,6 +17,3 @@
 4. 
     # Bash
     ```make stop / Arrête le projet```# Environnement-Infra-PHP-FPM-Mariadb-Nginx-PhpMyAdmin-avec-Docker
-# Environnement-Infra-PHP-FPM-Mariadb-Nginx-PhpMyAdmin-avec-Docker
-# Environnement-Infra-PHP-FPM-Mariadb-Nginx-PhpMyAdmin-avec-Docker
-# Environnement-Infra-PHP-FPM-Mariadb-Nginx-PhpMyAdmin-avec-Docker
