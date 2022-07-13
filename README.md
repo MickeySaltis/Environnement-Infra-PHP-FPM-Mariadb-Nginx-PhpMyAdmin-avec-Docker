@@ -20,7 +20,7 @@
 
 3. 
     ## Bash / Démarrer le projet
-    ```make start```
+    ```make start``` ou ```docker-compose up```
 
 
 
