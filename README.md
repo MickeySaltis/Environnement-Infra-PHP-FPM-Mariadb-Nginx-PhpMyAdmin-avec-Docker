@@ -56,7 +56,7 @@
 
 
 
-    # Installer les dépendances du projet après votre `git clone`.
+    # Installer les dépendances du projet après un `git clone`.
     ``` npm install ```   
   
   
