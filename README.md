@@ -67,7 +67,7 @@
     ### Soucis avec l'upload de fichier dans le projet ?
     Regarder du côté de SELinux
     3 niveaux de sécurités (Enforcing/Permissive/Disabled)
-    #### Bash
+    ### Bash
         
         ``` getenforce # Mode actuelle sur l'ordinateur ```
         ``` setenforce 0 # Mode permissive jusqu'à redémarrage de l'ordinateur ```
@@ -78,7 +78,7 @@
         - modifier la ligne `SELINUX=enforcing` par `SELINUX=permissive`
         - redémarrer l'ordinateur
         
-      ##### Attention 
+      #### Attention 
       - Il est très déconseillé de passer `SELinux` en mode `Disabled`
       - Si vous souhaitez remettre le mode `Enforcing` faite la même manipulation 
         ET la commande `Bash`
