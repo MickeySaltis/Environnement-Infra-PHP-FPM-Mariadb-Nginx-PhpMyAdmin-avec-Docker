@@ -1,7 +1,7 @@
 # Environnement Infra PHP FPM / Mariadb / Nginx / PhpMyAdmin avec Docker
 
 1. 
-    # Bash / DL l'environnement
+    ## Bash / DL l'environnement
     ``` 
     git clone https://github.com/MickeySaltis/Environnement-Infra-PHP-FPM-Mariadb-Nginx-PhpMyAdmin-avec-Docker "nom du projet" 
     ```
@@ -9,7 +9,7 @@
 
 
 2. 
-    # Bash / Préparer son projet
+    ## Bash / Préparer son projet
     ```
     cd "nom du projet"
     mkdir app
@@ -19,13 +19,13 @@
 
 
 3. 
-    # Bash / Démarrer le projet
+    ## Bash / Démarrer le projet
     ```make start```
 
 
 
 4. 
-    # Bash / Arrêter le projet
+    ## Bash / Arrêter le projet
     ```make stop```
 
 
