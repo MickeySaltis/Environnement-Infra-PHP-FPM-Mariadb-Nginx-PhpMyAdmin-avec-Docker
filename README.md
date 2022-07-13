@@ -2,7 +2,7 @@
 
 1. 
     # Bash / DL l'environnement
-    git clone https://github.com/niwee-productions/simple-php-fpm-mariadb-pma.git "nom du projet"
+    ```git clone https://github.com/niwee-productions/simple-php-fpm-mariadb-pma.git "nom du projet"```
 
 2. 
     # Bash / Préparer son projet
@@ -43,5 +43,5 @@
     A la création d'un projet NPM, le fichier `package.json` est créé avec les informations du projet comme ses dépendances.
     -> Indiquer `node_modules` dans `.gitignore`
 
-    ``` npm install ``` # Installer les dépendances du projet après votre `git clone`.
-    ``` npm update ``` ou ``` npm update <nom de la dépendance> ``` # Mettre à jour les dépendances du projet.
+    ``` npm install ```     # Installer les dépendances du projet après votre `git clone`.
+    ``` npm update ``` ou ``` npm update <nom de la dépendance> ```   # Mettre à jour les dépendances du projet.
