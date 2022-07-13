@@ -1,0 +1,40 @@
+version: "3.9"
+services:
+  nginx:
+    restart: on-failure
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/templates/default.conf.template
+    ports:
+      - 80:80
+    volumes_from: 
+      - php
+
+  php:
+    build: php/
+    links:
+      - mariadb
+    volumes:
+      - ./app:/public
+    env_file:
+      - .env
+
+  mariadb:
+    restart: on-failure
+    image: mariadb:latest
+    env_file:
+      - .env
+    ports: 
+      - 3306:3306
+
+  phpmyadmin:
+    restart: on-failure
+    image: "phpmyadmin"
+    depends_on:
+      - mariadb
+    links:
+      - mariadb
+    ports:
+      - "8080:80"
+    env_file:
+      - .env
